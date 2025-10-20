@@ -26,7 +26,9 @@ app.get("/status", (req, res) => {
   res.json({ status: lockStatus });
 });
 
-ap
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
 
 
 
